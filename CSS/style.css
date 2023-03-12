@@ -13,7 +13,7 @@ body{
     font-family: "mallanna-regular";
     src: url("../Font/Mallanna-Regular.ttf");
 }
-/* ComienzoHeader */
+/* ComienzoHeaderPag.principal */
 .navbar-nav{
     font-size: 1.2em;
     background-color: rgb(130, 146, 160, .4);
@@ -26,19 +26,25 @@ body{
     text-align: center;
 
 }
-
-/* FinHeader */
-
-.col-sm-4{
-    border-radius: 5px;
-    background-color: rgb(130, 146, 160, .4)
+h3{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: "yatraone-regular";
+    font-size: 35px;
+    color: aliceblue;
 }
-  
-.col-sm-8{
-    border-radius: 5px;
-    background-color: rgb(130, 146, 160, .4)
-    
+.nav-link{
+    color: aliceblue;
 }
+
+hr { border: none; 
+    height: 5px; 
+    color: #ebe0e0; 
+    background-color: #f0e7e7;
+}  
+
+/* FinHeaderPag.principal*/
+
 h1 { 
     color: rgb(255, 255, 255);
     text-align: center;
@@ -46,11 +52,7 @@ h1 {
     font-weight: bold;
     font-family: "yatraone-regular";
 }
-h3{
-    font-family: "yatraone-regular";
-    font-size: 25px;
-    color: aliceblue;
-}
+ 
 p{
     font-family: "mallanna-regular";
     font-size: 20px;
@@ -84,7 +86,7 @@ p{
 }      
 .footer {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 5px;
     
 }
@@ -96,28 +98,34 @@ main  {
     width: auto;
 }
 aside {
-    margin-top: 200px;
+    margin-top: 50px;
+    
 }
+
 .asideseries{
-    text-align: left;
-    background-color: rgb(72, 77, 77);
+    background-color: rgb(72, 77, 77, .6);
     border-radius: 20px;
-    max-width: 40%;
-    margin-top: 0px
+    margin-bottom: 20px;
 }
 .asideseries h3{
     text-align: center;
+    color: rgb(218, 137, 70);
+    padding-bottom: 20px;
+    
+
 }
 .asideseries ul li{
+    list-style: none;
     font-family: "mallanna-regular";
     font-size: 20px;
+    color: aliceblue;
 }
 table, th, td{
     margin: auto;
     border: 2px solid rgb(0, 0, 0);
     border-collapse: collapse;
     border-spacing: 2px;
-    padding: 10px 5px 10px 5px
+   
         
 }
 th{
@@ -126,7 +134,8 @@ th{
     
     
 }
-th, td{
+td{
+    color: rgb(240, 97, 97);
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
@@ -135,51 +144,33 @@ table{
    caption-side: bottom;
 }
 caption{
+    color: aliceblue;
     padding-top: 20px;
     font-style:italic;
 }
 .img-series{
-     background-color: rgb(72, 77, 77);
-     width: 1120px;
-     height: 200px;
-     float: right;
-     margin-top: 25px;
-     padding-bottom: 462px ;
+
+     background-color: rgb(72, 77, 77, .6);
      border-radius: 20px;
+     display: flex;
+     flex-direction:row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+     
+
 }
 .img-series img{
-     width: 250px;
-     height: 250px;
+    margin: 50px auto;;
      border:2px solid white
-     
 }
 
-.img1{
-    position: relative; 
-    top: -40px;
-    left:200px;
-    width: 100px;
-}
-.img2{
-    position: relative;
-    top:-298px;
-    left: 200px;
-}
-.img3{
-    position: relative;
-    top:-460px;
-    left: 250px;
-}
-.img4{
-    position: relative;
-    top: -718px;
-    left: -185px;
-}
-
-fieldset{
-    color: white;
-    width: 20%;
+ 
+.formulario {
     margin-right: auto;
-    margin-left: auto;  
-   
+    margin-left: auto; 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 400px
+      
 }
