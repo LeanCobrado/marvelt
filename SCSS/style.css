@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url(../img/Fondo.png);
+}
+
+@font-face {
+  font-family: "yatraone-regular";
+  src: url("../fonts/yatraone-regular.ttf");
+}
+
+@font-face {
+  font-family: "mallana-regular";
+  src: url("../font/Mallanna-Regular.ttf");
+}
+
+h1 {
+  border: 3px solid blue;
+}
+/*# sourceMappingURL=style.css.map */
