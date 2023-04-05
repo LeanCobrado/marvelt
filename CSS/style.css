@@ -1,4 +1,3 @@
-/* Reset */
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +15,6 @@ body {
   font-family: "mallanna-regular";
   src: url("../Font/Mallanna-Regular.ttf");
 }
-/* ComienzoHeaderPag.principal */
 .navbar-nav {
   font-size: 1.2em;
   background-color: rgba(130, 146, 160, 0.4);
@@ -40,6 +38,11 @@ body {
   color: white;
 }
 
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
 /* FinHeaderPag.principal*/
 hr {
   border: none;
@@ -51,9 +54,12 @@ hr {
 h1 {
   color: white;
   text-align: center;
-  font-size: 55px;
   font-weight: bold;
   font-family: "yatraone-regular";
+}
+
+h2 {
+  color: white;
 }
 
 .animate {
@@ -108,7 +114,7 @@ h3 {
   margin-top: 20px;
   padding-bottom: 20px;
   font-family: "yatraone-regular";
-  font-size: 35px;
+  font-size: 2rem;
   color: white;
 }
 
@@ -161,9 +167,9 @@ aside {
 
 table, th, td {
   margin: auto;
-  border: 2px solid rgb(0, 0, 0);
+  border: 0.2rem solid rgb(0, 0, 0);
   border-collapse: collapse;
-  border-spacing: 2px;
+  border-spacing: 0.2rem;
 }
 table th, th th, td th {
   color: white;
@@ -178,15 +184,30 @@ table table, th table, td table {
   caption-side: bottom;
 }
 
+.barra {
+  overflow-x: auto;
+}
+
+@media (max-width: 576px) {
+  table {
+    width: 100%;
+  }
+  th, td {
+    width: 100%;
+  }
+  th {
+    text-align: center;
+  }
+}
 caption {
   color: white;
-  padding-top: 20px;
+  padding-top: 1.4rem;
   font-style: italic;
 }
 
 .img-series {
   background-color: rgba(72, 77, 77, 0.6);
-  border-radius: 20px;
+  border-radius: 1.4rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -194,8 +215,8 @@ caption {
   align-items: center;
 }
 .img-series img {
-  margin: 50px auto;
-  border: 2px solid white;
+  margin: 3.2rem auto;
+  border: 0.2rem solid white;
 }
 
 .formulario {
@@ -203,17 +224,16 @@ caption {
   margin-left: auto;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.6);
-  width: 30em;
 }
 
 .input {
-  width: 200px;
+  width: 12.5em;
   height: 25px;
   transition: all 1s;
 }
 
 input:focus {
-  width: 250px;
+  width: 15.6rem;
   font-size: 24px;
 }
 
